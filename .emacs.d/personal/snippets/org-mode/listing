@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: listing
+# key: \lst
+# --
+\lstinputlisting[language=${1:language}]{${2:path}}

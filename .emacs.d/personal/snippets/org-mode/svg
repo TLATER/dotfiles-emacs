@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: svg
+# key: \svg
+# --
+\includesvg[width=${1:width}\linewidth]{${2:path}}$0

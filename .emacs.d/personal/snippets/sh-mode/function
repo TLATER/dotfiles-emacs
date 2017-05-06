@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: function
+# key: f
+# --
+${2:#######################################
+# ${3:description}
+# Globals:
+#     None
+# Arguments:
+#     None
+# Returns:
+#     None
+#######################################}
+${1:function_name}() {
+    $0
+}
