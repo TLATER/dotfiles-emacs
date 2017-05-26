@@ -25,7 +25,10 @@
 ;;; Code:
 
 (prelude-require-package 'matlab-mode)
+
 (prelude-require-package 'gnuplot-mode)
+(setq auto-mode-alist
+      (append '(("\\.\\(gp\\|gnuplot\\|gpl\\)$" . gnuplot-mode)) auto-mode-alist))
 
 (provide 'majors)
 ;;; majors.el ends here
